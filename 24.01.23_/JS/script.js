@@ -109,5 +109,9 @@ dump1 =prompt(`Can you say one of last movies what watched`,`Fight club`);
 dump2 =prompt(`How would you rate him`,`7`);
 
 
-alert(personalMovieDB[`movies['dump1']=dump2`]);
+//alert(personalMovieDB[`movies['dump1']=dump2`]);
 
+alert(`This action=${personalMovieDB.movies[`dump1`]=dump2} `);
+
+console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
